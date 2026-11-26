@@ -1,0 +1,93 @@
+{
+ "v": 1,
+ "at": "2026-11-17T08:00:00Z",
+ "cycle": {
+  "start": "2026-11-01T00:00:00Z",
+  "end": "2026-12-01T00:00:00Z",
+  "budget_usd": 169.53,
+  "spent_usd": 20.43,
+  "reserved_usd": 0.0
+ },
+ "tiles": {
+  "window_h": 24,
+  "now": {
+   "requests": 12,
+   "ok": 11,
+   "failed": 1,
+   "refused": 0,
+   "input_tokens": 52000,
+   "output_tokens": 4100,
+   "cache_read": 180000,
+   "cache_write": 9000,
+   "cost_usd": 0.41,
+   "p50_latency_ms": 3400
+  },
+  "prev": {
+   "requests": 3,
+   "ok": 3,
+   "failed": 0,
+   "refused": 0,
+   "input_tokens": 9000,
+   "output_tokens": 800,
+   "cache_read": 20000,
+   "cache_write": 3000,
+   "cost_usd": 0.06,
+   "p50_latency_ms": 2900
+  },
+  "spark": [
+   {
+    "t": "2026-11-16T08:00:00Z",
+    "requests": 0,
+    "tokens": 0,
+    "cost_usd": 0.0
+   }
+  ]
+ },
+ "hourly": [
+  {
+   "t": "2026-11-17T07:00:00Z",
+   "model": "claude-haiku-5-5",
+   "requests": 4,
+   "input_tokens": 20000,
+   "output_tokens": 1500,
+   "cache_read": 60000,
+   "cache_write": 3000,
+   "cost_usd": 0.012
+  }
+ ],
+ "by_model": [
+  {
+   "model": "claude-haiku-5-5",
+   "requests": 40,
+   "tokens": 900000,
+   "cost_usd": 0.31,
+   "share": 0.62
+  }
+ ],
+ "records": [
+  {
+   "id": 812,
+   "t": "2026-11-17T07:41:02Z",
+   "t_end": "2026-11-17T07:41:05Z",
+   "label": "review-abc123",
+   "path": "/v1/messages",
+   "model": "claude-haiku-5-5",
+   "status": "settled",
+   "http_status": 200,
+   "input_tokens": 5000,
+   "output_tokens": 300,
+   "cache_read": 12000,
+   "cache_write": 0,
+   "cost_usd": 0.0021,
+   "note": null
+  }
+ ],
+ "daily": [
+  {
+   "date": "2026-11-17",
+   "requests": 12,
+   "tokens": 245100,
+   "cost_usd": 0.41
+  }
+ ]
+}

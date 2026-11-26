@@ -1,0 +1,50 @@
+{
+ "v": 1,
+ "at": "2026-11-17T08:00:00Z",
+ "source": "workstation",
+ "windows": [
+  {
+   "plan": "claude",
+   "window": "5h",
+   "scope": "session",
+   "used_pct": 12.0,
+   "resets_at": "2026-11-17T10:00:00Z",
+   "length_s": 18000
+  },
+  {
+   "plan": "claude",
+   "window": "week",
+   "scope": "all-models",
+   "used_pct": 18.0,
+   "resets_at": "2026-11-23T05:59:59Z",
+   "length_s": 604800
+  },
+  {
+   "plan": "claude",
+   "window": "week",
+   "scope": "fable",
+   "used_pct": 0.0,
+   "resets_at": "2026-11-23T05:59:59Z",
+   "length_s": 604800
+  },
+  {
+   "plan": "codex",
+   "window": "5h",
+   "scope": "primary",
+   "used_pct": 31.0,
+   "resets_at": "2026-11-17T11:12:00Z",
+   "length_s": 18000,
+   "read_at": "2026-11-17T05:00:00Z"
+  },
+  {
+   "plan": "codex",
+   "window": "week",
+   "scope": "secondary",
+   "used_pct": 77.0,
+   "resets_at": "2026-11-17T21:49:22Z",
+   "length_s": 604800,
+   "read_at": "2026-11-17T05:00:00Z"
+  }
+ ],
+ "errors": []
+}

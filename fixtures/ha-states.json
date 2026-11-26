@@ -1,0 +1,10 @@
+[
+ {"entity_id":"binary_sensor.claude_code_on_workstation_harness_regressed","state":"off","attributes":{"friendly_name":"Claude Code on workstation Harness regressed"}},
+ {"entity_id":"binary_sensor.codex_on_workstation_harness_regressed","state":"on","attributes":{"friendly_name":"Codex on workstation Harness regressed"}},
+ {"entity_id":"sensor.claude_code_on_workstation_success_rate","state":"88.4","attributes":{"unit_of_measurement":"%"}},
+ {"entity_id":"sensor.claude_code_on_workstation_window_success_rate","state":"90.0","attributes":{"unit_of_measurement":"%"}},
+ {"entity_id":"sensor.codex_on_workstation_success_rate","state":"80.0","attributes":{"unit_of_measurement":"%"}},
+ {"entity_id":"sensor.codex_on_workstation_window_success_rate","state":"unavailable","attributes":{"unit_of_measurement":"%"}},
+ {"entity_id":"sensor.codex_on_workstation_runs","state":"15","attributes":{}},
+ {"entity_id":"light.kitchen","state":"on","attributes":{}}
+]

@@ -1,0 +1,32 @@
+{
+ "v": 1,
+ "at": "2026-11-17T08:00:00Z",
+ "capacity": 2000,
+ "events": [
+  {
+   "id": "r-1731830400-17",
+   "t": "2026-11-17T07:59:58Z",
+   "caller": "voice",
+   "requested": "bonsai",
+   "route": "workstation",
+   "model": "bonsai",
+   "ok": true,
+   "status": 200,
+   "latency_ms": 820,
+   "input_tokens": 1200,
+   "output_tokens": 40
+  },
+  {
+   "id": "r-1731830400-18",
+   "t": "2026-11-17T07:59:59Z",
+   "caller": "background",
+   "requested": "job:coding",
+   "route": "openrouter",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+   "ok": false,
+   "status": 429,
+   "latency_ms": 300,
+   "error": "rate limited"
+  }
+ ]
+}

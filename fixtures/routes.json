@@ -1,0 +1,25 @@
+{
+ "v": 1,
+ "at": "2026-11-17T08:00:00Z",
+ "source": "workstation",
+ "events": [
+  {
+   "id": "claude:a0a013094295beecb",
+   "t": "2026-11-17T06:43:26Z",
+   "caller": "delegate",
+   "route": "claude",
+   "model": "claude-opus-5-5",
+   "ok": true,
+   "tool_calls": 54
+  },
+  {
+   "id": "codex:01a1b255-85ee-7dd0-a832-fb7a6b17bb34",
+   "t": "2026-11-17T05:00:00Z",
+   "caller": "delegate",
+   "route": "codex",
+   "model": "gpt-6-sol",
+   "ok": true,
+   "latency_ms": 412000
+  }
+ ]
+}

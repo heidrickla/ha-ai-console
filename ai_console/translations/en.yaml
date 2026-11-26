@@ -1,0 +1,12 @@
+configuration:
+  push_sources:
+    name: Push sources
+    description: >-
+      Addresses allowed to push the quota, meter and routes feeds. Any other address gets 403.
+      Empty by default, which accepts no push. Add the address of the machine that runs the feed commands.
+  router_url:
+    name: Router URL
+    description: >-
+      Optional. The base URL of a model router that serves /routes, /cloud and /health, read for calls, cloud limits and host health. Leave empty to pull nothing.
+network:
+  8096/tcp: The page and the push endpoints over plain HTTP on the LAN, without a Home Assistant login

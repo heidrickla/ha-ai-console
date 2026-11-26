@@ -1,0 +1,2824 @@
+{
+ "providers": {
+  "cloudflare-workers-ai": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 74,
+    "prompt_tokens": 94,
+    "requests": 2
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 74,
+    "key": "2026-11",
+    "prompt_tokens": 94,
+    "requests": 2
+   },
+   "rate_headers": {},
+   "last_status": 200,
+   "last_time": "2026-11-15T07:58:11.109197+00:00",
+   "credential_refused": false,
+   "quotas": [
+    {
+     "scope": "shared",
+     "key": "cloudflare-workers-ai:account",
+     "limits": {
+      "rpd": 300
+     },
+     "remaining": {
+      "rpd": 300
+     }
+    }
+   ],
+   "requests_today": 0,
+   "tokens_today": 0,
+   "request_limit": 300,
+   "backoff_reason": null,
+   "backoff_until": null
+  },
+  "google": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 1,
+    "prompt_tokens": 8,
+    "requests": 2
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {
+    "404": 1
+   },
+   "last_status": 200,
+   "last_time": "2026-11-15T07:55:04.516314+00:00",
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 1,
+    "key": "2026-11",
+    "prompt_tokens": 8,
+    "requests": 2
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "requests_today": 0,
+   "tokens_today": 0,
+   "request_limit": null,
+   "backoff_reason": null,
+   "backoff_until": null
+  },
+  "gpuhost": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "requests_today": 0,
+   "tokens_today": 0,
+   "request_limit": null,
+   "backoff_reason": null,
+   "backoff_until": null
+  },
+  "groq": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 72,
+    "prompt_tokens": 171,
+    "requests": 3
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "last_status": 200,
+   "last_time": "2026-11-15T07:58:08.745050+00:00",
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 72,
+    "key": "2026-11",
+    "prompt_tokens": 171,
+    "requests": 3
+   },
+   "rate_headers": {
+    "x-ratelimit-limit-requests": "7000",
+    "x-ratelimit-limit-tokens": "6000",
+    "x-ratelimit-remaining-requests": "6999",
+    "x-ratelimit-remaining-tokens": "5785",
+    "x-ratelimit-reset-requests": "12.342s",
+    "x-ratelimit-reset-tokens": "2.15s"
+   },
+   "credential_refused": false,
+   "quotas": [],
+   "requests_today": 0,
+   "tokens_today": 0,
+   "request_limit": "per model",
+   "backoff_reason": null,
+   "backoff_until": null
+  },
+  "nvidia": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 58,
+    "prompt_tokens": 48,
+    "requests": 7
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {
+    "504": 5
+   },
+   "last_status": 200,
+   "last_time": "2026-11-15T07:58:10.184712+00:00",
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 58,
+    "key": "2026-11",
+    "prompt_tokens": 48,
+    "requests": 7
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [
+    {
+     "scope": "shared",
+     "key": "nvidia:account",
+     "limits": {
+      "rpm": 40
+     },
+     "remaining": {
+      "rpm": 40
+     }
+    }
+   ],
+   "requests_today": 0,
+   "tokens_today": 0,
+   "request_limit": null,
+   "backoff_reason": null,
+   "backoff_until": null
+  },
+  "openrouter": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 100,
+    "prompt_tokens": 70,
+    "requests": 5
+   },
+   "count_429": 2,
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {
+    "429": 2
+   },
+   "last_status": 200,
+   "last_time": "2026-11-15T07:59:01.569628+00:00",
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 100,
+    "key": "2026-11",
+    "prompt_tokens": 70,
+    "requests": 5
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [
+    {
+     "scope": "shared",
+     "key": "openrouter:free",
+     "limits": {
+      "rpm": 20,
+      "rpd": 50
+     },
+     "remaining": {
+      "rpm": 20,
+      "rpd": 50
+     }
+    }
+   ],
+   "requests_today": 0,
+   "tokens_today": 0,
+   "request_limit": 50,
+   "backoff_reason": null,
+   "backoff_until": null
+  },
+  "zai": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 185,
+    "prompt_tokens": 12,
+    "requests": 3
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {
+    "504": 1,
+    "429": 1
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 185,
+    "key": "2026-11",
+    "prompt_tokens": 12,
+    "requests": 3
+   },
+   "rate_headers": {},
+   "last_status": 200,
+   "last_time": "2026-11-15T07:58:18.724150+00:00",
+   "count_429": 1,
+   "credential_refused": false,
+   "quotas": [],
+   "requests_today": 0,
+   "tokens_today": 0,
+   "request_limit": null,
+   "backoff_reason": null,
+   "backoff_until": null
+  }
+ },
+ "models": {
+  "google/antigravity-preview-05-2026": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/antigravity-preview-09-2026": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/antigravity-preview-latest": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/aqa": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/deep-research-max-preview-04-2026": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/deep-research-preview-04-2026": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/deep-research-pro-preview-12-2025": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-computer-use-preview-10-2025": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-flash": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 1
+   },
+   "backoff_until": 1794729600.0,
+   "backoff_why": "upstream 404 for this model",
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {
+    "404": 1
+   },
+   "last_status": 404,
+   "last_time": "2026-11-15T07:19:24.210390+00:00",
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 1
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-flash-image": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-flash-lite": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-flash-native-audio-latest": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-flash-native-audio-preview-09-2025": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-flash-native-audio-preview-12-2025": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-flash-preview-tts": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-pro": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-2.5-pro-preview-tts": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-3-flash-preview": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-3-pro-image": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-3-pro-image-preview": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-3.1-flash-image": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-3.1-flash-image-preview": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-3.1-flash-lite": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-3.1-flash-lite-image": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  },
+  "google/gemini-3.1-flash-lite-preview": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false,
+   "quotas": [],
+   "routable": true
+  }
+ },
+ "scopes": {
+  "model:gpuhost/qwen3-coder-30b-abliterated": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/allam-2-7b": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 4,
+    "prompt_tokens": 15,
+    "requests": 1
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 4,
+    "key": "2026-11",
+    "prompt_tokens": 15,
+    "requests": 1
+   },
+   "rate_headers": {},
+   "last_status": 200,
+   "last_time": "2026-11-15T07:58:08.745050+00:00",
+   "credential_refused": false
+  },
+  "model:groq/canopylabs/orpheus-arabic-saudi": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/canopylabs/orpheus-v1-english": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/meta-llama/llama-prompt-guard-2-22m": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/meta-llama/llama-prompt-guard-2-86m": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/openai/gpt-oss-120b": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/openai/gpt-oss-20b": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 68,
+    "prompt_tokens": 156,
+    "requests": 2
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "last_status": 200,
+   "last_time": "2026-11-15T07:55:01.909615+00:00",
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 68,
+    "key": "2026-11",
+    "prompt_tokens": 156,
+    "requests": 2
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/openai/gpt-oss-safeguard-20b": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/qwen/qwen3.8-27b": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/whisper-large-v3": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "model:groq/whisper-large-v3-turbo": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 0,
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {},
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 0,
+    "key": "2026-11",
+    "prompt_tokens": 0,
+    "requests": 0
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "nvidia:account": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 58,
+    "prompt_tokens": 48,
+    "requests": 7
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {
+    "504": 5
+   },
+   "last_status": 200,
+   "last_time": "2026-11-15T07:58:10.184712+00:00",
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 58,
+    "key": "2026-11",
+    "prompt_tokens": 48,
+    "requests": 7
+   },
+   "rate_headers": {},
+   "credential_refused": false
+  },
+  "openrouter:free": {
+   "active": 0,
+   "all_time": {
+    "completion_tokens": 24,
+    "prompt_tokens": 24,
+    "requests": 3
+   },
+   "backoff_until": 1794727224.647267,
+   "backoff_why": "upstream 429",
+   "count_429": 2,
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "errors": {
+    "429": 2
+   },
+   "last_status": 429,
+   "last_time": "2026-11-15T07:58:58.988378+00:00",
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "completion_tokens": 24,
+    "key": "2026-11",
+    "prompt_tokens": 24,
+    "requests": 3
+   },
+   "rate_headers": {},
+   "streak_429": 0,
+   "streak_day": "2026-11-15",
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/aisingapore/gemma-sea-lion-v4-27b-it": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "cloudflare-workers-ai:account": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 2,
+    "prompt_tokens": 94,
+    "completion_tokens": 74
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 2,
+    "prompt_tokens": 94,
+    "completion_tokens": 74
+   },
+   "last_status": 200,
+   "last_time": "2026-11-15T07:58:11.109197+00:00",
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/cloudflare/clairic": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/cloudflare/clef": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/cloudflare/clef-flash": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/cloudflare/clef-omni": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/daily-co/phonellm-mini-alpha-2": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/deepseek-ai/deepseek-r1-distill-qwen-32b": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/google/gemma-2b-it-lora": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/google/gemma-4-26b-a4b-it": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/google/gemma-7b-it-lora": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/ibm-granite/granite-4.0-h-micro": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/meta-llama/llama-2-7b-chat-hf-lora": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/meta/llama-3.1-8b-instruct-fp8": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 1,
+    "prompt_tokens": 18,
+    "completion_tokens": 3
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 1,
+    "prompt_tokens": 18,
+    "completion_tokens": 3
+   },
+   "last_status": 200,
+   "last_time": "2026-11-15T07:58:11.109197+00:00",
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/meta/llama-3.2-11b-vision-instruct": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/meta/llama-3.2-1b-instruct": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/meta/llama-3.2-3b-instruct": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/meta/llama-3.3-70b-instruct-fp8-fast": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/meta/llama-guard-3-8b": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/mistral/mistral-7b-instruct-v0.2-lora": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/mistralai/mistral-small-3.1-24b-instruct": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/nvidia/nemotron-3-120b-a12b": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/openai/gpt-oss-120b": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/openai/gpt-oss-20b": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 1,
+    "prompt_tokens": 76,
+    "completion_tokens": 71
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 1,
+    "prompt_tokens": 76,
+    "completion_tokens": 71
+   },
+   "last_status": 200,
+   "last_time": "2026-11-15T07:55:02.973655+00:00",
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/qwen/qwen2.5-coder-32b-instruct": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/qwen/qwen3-30b-a3b-fp8": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/qwen/qwen3.8-27b": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/qwen/qwq-32b": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/swiss-ai/apertus-v1.5-8b": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/thinkingmachines/inkling-2-small": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/utter-project/eurollm-9b-it": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:zai/glm-4.5-flash": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 1,
+    "prompt_tokens": 12,
+    "completion_tokens": 185
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 1,
+    "prompt_tokens": 12,
+    "completion_tokens": 185
+   },
+   "last_status": 200,
+   "last_time": "2026-11-15T07:58:18.724150+00:00",
+   "credential_refused": false
+  },
+  "model:zai/glm-4.6v-flash": {
+   "active": 0,
+   "errors": {
+    "429": 1
+   },
+   "rate_headers": {},
+   "all_time": {
+    "requests": 1,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 1,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "last_status": 429,
+   "last_time": "2026-11-15T07:56:06.076251+00:00",
+   "count_429": 1,
+   "credential_refused": false
+  },
+  "model:zai/glm-4.7-flash": {
+   "active": 0,
+   "errors": {
+    "504": 1
+   },
+   "rate_headers": {},
+   "all_time": {
+    "requests": 1,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 1,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "last_status": 504,
+   "last_time": "2026-11-15T07:56:05.144793+00:00",
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/moonshotai/kimi-k2.7-code": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/zai-org/glm-5.3": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/zai-org/glm-5.3-flash": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/moonshotai/kimi-k2.6": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/deepseek-ai/deepseek-v4-flash-0731": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/zai-org/glm-5.2": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/deepseek-ai/deepseek-v4-pro-0813": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  },
+  "model:cloudflare-workers-ai/@cf/deepseek-ai/deepseek-v4.1-flash-1017": {
+   "active": 0,
+   "errors": {},
+   "rate_headers": {},
+   "all_time": {
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "minute": {
+    "key": "2026-11-17T08:23:00+00:00",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "day": {
+    "key": "2026-11-17",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "month": {
+    "key": "2026-11",
+    "requests": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   "credential_refused": false
+  }
+ },
+ "enabled": [
+  "openrouter",
+  "nvidia",
+  "google",
+  "zai",
+  "groq",
+  "cloudflare-workers-ai",
+  "gpuhost"
+ ]
+}

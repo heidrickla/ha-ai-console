@@ -1,0 +1,13 @@
+{
+ "enabled": ["openrouter", "zai"],
+ "providers": {
+  "openrouter": {"requests_today": 38, "tokens_today": 152000, "request_limit": 50, "backoff_until": null, "backoff_reason": null, "credential_refused": false,
+   "quotas": [{"scope": "provider", "key": "openrouter:free", "limits": {"rpd": 50, "rpm": 20}, "remaining": {"rpd": 12, "rpm": 20}}]},
+  "zai": {"requests_today": 3, "tokens_today": 9100, "request_limit": "per model", "backoff_until": null, "backoff_reason": null, "credential_refused": false, "quotas": []}
+ },
+ "models": {
+  "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free": {"backoff_until": 1794903900, "backoff_why": "three upstream 429s", "routable": false, "reason": "three upstream 429s", "retry_after": 1500},
+  "zai/glm-4.7-flash": {"backoff_until": null, "backoff_why": null, "routable": true}
+ },
+ "scopes": {}
+}

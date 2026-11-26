@@ -1,0 +1,22 @@
+name: AI Console
+version: "0.2.0"
+slug: ai_console
+description: AI usage, plan limits, routes and providers on one page
+url: https://github.com/heidrickla/ha-ai-console
+arch:
+  - amd64
+  - aarch64
+init: false
+homeassistant_api: true
+ports:
+  8096/tcp: 8096
+ingress: true
+ingress_port: 8096
+panel_icon: mdi:chart-timeline-variant
+panel_title: AI usage
+options:
+  push_sources: []
+schema:
+  push_sources:
+    - match(^[0-9a-fA-F.:]{3,45}$)
+  router_url: str?

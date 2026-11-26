@@ -1,0 +1,8 @@
+{
+  "name": "ai-console-tools",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "jsdom": "31.0.1"
+  }
+}

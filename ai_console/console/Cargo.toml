@@ -1,0 +1,23 @@
+[package]
+name = "ai-console"
+version = "0.2.0"
+edition = "2024"
+license = "MIT"
+description = "AI usage, plans, routes and providers in one page, served from a Home Assistant add-on"
+publish = false
+
+[dependencies]
+bytes = "1.12.1"
+http-body-util = "0.1.5"
+hyper = { version = "1", default-features = false, features = ["http1", "server"] }
+hyper-util = { version = "0.1.21", features = ["tokio"] }
+serde_json = "1.0.151"
+time = { version = "0.3.47", features = ["parsing", "formatting"] }
+tokio = { version = "1.54.1", default-features = false, features = ["rt-multi-thread", "net", "time", "sync"] }
+ureq = { version = "3.4.2", default-features = false }
+
+[profile.release]
+opt-level = "z"
+lto = true
+strip = true
+codegen-units = 1
